@@ -1,5 +1,7 @@
 This a git repo
 
+page 0:  index.html
+
 page 1:  home.html
 
 page 2: details.html

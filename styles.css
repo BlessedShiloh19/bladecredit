@@ -42,9 +42,14 @@ footer{
     font-size: small;
 }
 
-.button1:hover, .button2:hover,  .button3:hover,.button4:hover  {
+.button1:hover, .button2:hover,  .button3:hover,.button4:hover, .button-index:hover {
     background-color: #77c2fb;
     color: #fff;
+}
+
+.button-index {
+    background-color: #082464;
+    width: 50%;
 }
 
 .account input {
@@ -57,4 +62,14 @@ footer{
 hr {
  border: 2px solid black;
 }
+
+.welcome-message h1 {
+    font-size: 3rem;
+}
+
+.welcome-message p {
+    font-weight: 500;
+}
+    
+   
 
