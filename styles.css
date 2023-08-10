@@ -1,0 +1,60 @@
+/* Style sheet for all the html blocks */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+
+
+.hover-link:hover {
+    color: #77c2fb;
+}
+
+.navbar-custom, footer {
+    background-color: #082464;
+    color: #fff;
+}
+
+footer{
+  height: 120px; 
+}
+
+.button1, .button2 {
+    background-color: #082464;
+    width: auto;
+    /* padding: auto; */
+    /* padding: 15px 32px; */
+    font-size: large;
+}
+
+.button3 {
+    background-color: #082464;
+    width: 180px;
+    padding: 15px 32px;
+    font-size: large;
+}
+.button4 {
+    background-color: #082464;
+    width: 100px;
+    font-size: small;
+}
+
+.button1:hover, .button2:hover,  .button3:hover,.button4:hover  {
+    background-color: #77c2fb;
+    color: #fff;
+}
+
+.account input {
+    border-radius: 3px;
+    margin-left: 16px;
+    width: 150px;
+    border-color: #dee2e6;
+}
+
+hr {
+ border: 2px solid black;
+}
+

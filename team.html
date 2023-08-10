@@ -1,0 +1,100 @@
+<!-- This is the home page of the intranet -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Blade Intranet</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-custom navbar-expand-lg" style="background-color: #082464;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html"> <img src="logo.webp" alt="Precision Brand Logo"></a>
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-white" href="#">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Logout</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <!-- Enter main here -->
+        <h2 class="py-3 px-5">Teams</h2> 
+        <hr>
+        <div class="px-5">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Team</th>
+                    <th scope="col">Team Rate</th>
+                    <th scope="col">Date Added</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Toronto Maple Leafs</td>
+                    <td>$8</td>
+                    <td><input type="date" class="form-control border-0" id="yearWithCompany1"></td>
+                  </tr>
+                  <tr>
+                    <td>Winnipeg Jets</td>
+                    <td>$8</td>
+                    <td><input type="date" class="form-control border-0" id="yearWithCompany2"></td>
+                  </tr>
+                  <tr>
+                    <td>Montreal Canadiens</td>
+                    <td>$8</td>
+                    <td><input type="date" class="form-control border-0" id="yearWithCompany3"></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="d-flex justify-content-center mt-5 gap-3">
+            <a class="btn text-white text-center button3" role="button">Add New</a>
+            <a class=" btn text-white text-center button3" role="button">Edit / Delete</a>
+        </div>
+        <form class="mt-5 px-5">
+            <div class="mb-3">
+                <label for="teamName" class="form-label ">Team Name:</label>
+                <input class="px-5" type="text" id="teamName">
+            </div>
+            <div class="mb-3">
+                <label for="teamRate" class="form-label">Team Rate:</label>
+                <input type="number" id="teamRate">
+            </div>
+        </form>
+        
+
+    </main>
+
+    <footer>
+        <div class="footer px-5 py-5 text-center">
+            <p>&copy; 2023 Precision Blades. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+
+<!-- Boostrap js -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
